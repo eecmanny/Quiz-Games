@@ -53,19 +53,24 @@ var quizQuestions = [
     correct: "2 Spaces"
   }
   {
-    question: "xample Question: According to the W3C recommendation, what's the appropriate way of indenting nested HTML elements?",
+    question: " What comparison means the same value and same type?",
     choices: ["No recommended indent", "No Space", "1 Space", "2 Spaces"],
     correct: "2 Spaces"
   }
   {
     question: "xample Question: According to the W3C recommendation, what's the appropriate way of indenting nested HTML elements?",
-    choices: ["No recommended indent", "No Space", "1 Space", "2 Spaces"],
-    correct: "2 Spaces"
+    choices: ["&&", "==", "===", "||"],
+    correct: "==="
   }
   {
-    question: "xample Question: According to the W3C recommendation, what's the appropriate way of indenting nested HTML elements?",
-    choices: ["No recommended indent", "No Space", "1 Space", "2 Spaces"],
-    correct: "2 Spaces"
+    question: "What command is to open a directory?",
+    choices: ["touch", "mkr", "git", "cd"],
+    correct: "cd"
+  }
+  {
+    question: " What flex style tool allows elemets to wrap around each other?",
+    choices: ["Flex-Wrap", "Flex-Direction", "Justify-content", "Display"],
+    correct: "Flex-Wrap"
   }
 ]
 
