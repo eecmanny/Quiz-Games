@@ -78,13 +78,16 @@ function startTimer() {
 // }
 
 // Click answers on quizes
-// startButton.addEventListener("click", quizselect);
+startButton.addEventListener("click", quizselect);
 
 // function answerselect() {
 // // !!Need to Make Code for button select and to add up answers!! If less than 5 fail quiz
 // answerCorrect = 1;
 // answerWrong = 0;
 // }
+
+
+
 
 // Click answers on quizzes
 var answerButtons = document.querySelectorAll(".answer-button");
