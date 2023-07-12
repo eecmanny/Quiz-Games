@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quiz Game</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link rel="stylesheet" type="text/css" href="./reset.css" />
+</head>
+
+<body>
+  <header>
+    <div class="large-font">Quiz Game</div>
+    <div>
+      <h2>Rules: You need to answers all the questions before the time runs out</h2>
+      <h2>If you get one wrong it subtacts 5 seconds</h2>
+      <h2>Try to beat the last time you played</h2>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="quiz-container"></section>
+    <section id="high-score" class="hide">
+      <form >
+        <label for="initals">Please enter your initials</label>
+        <input type="text" name="initials" id="initials">
+        <button class="submit">submit</button>
+        <div><h2 class="message"></h2></div>
+      </form>
+      <div id="top10">
+
+      </div>
+    </section>
+   
+    <section>
+      <div class="card results">
+        <div class="win-loss-container">
+          <div>
+            <Ul class="score-container">
+              <h2>Answer: <span class="result"> </span> </h2>
+          </ul>
+          </div>
+          <div>
+          <button class="cbutton start-button">Start</button>
+          <button class="cbutton reset-button">Reset Score</button>
+        </div>
+        </div>
+        <div>
+          <div class="card timer">
+          <div class="timer-text">
+          <div class="large-font timer-count">60</div>
+          <h3>seconds remaining</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
