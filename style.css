@@ -24,6 +24,10 @@ body {
   margin-top: 20px;
 }
 
+.hide{
+  display: none;
+}
+
 .win-loss-container {
   display: flex;
   margin-top: 16px;
